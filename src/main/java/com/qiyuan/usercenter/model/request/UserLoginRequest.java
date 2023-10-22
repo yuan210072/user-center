@@ -1,0 +1,14 @@
+package com.qiyuan.usercenter.model.request;
+
+import lombok.Data;
+
+import java.io.Serializable;
+
+@Data
+public class UserLoginRequest implements Serializable {
+
+    private static final long serialVersionUID = 4155911851244975524L;
+
+    private String userAccount;
+    private String userPassword;
+}
